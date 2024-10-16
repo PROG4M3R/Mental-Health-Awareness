@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f1f1f1; /* Light Gray (Neutral) */
+  }
+  
+  /* Main Background Image */
+  .background-image {
+    position: fixed; /* Make the background fixed to the viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Ensure it covers the entire height of the viewport */
+    background-image: url('images/background.jpeg');
+    background-size: cover; /* Make sure the image covers the entire page */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Keep the background image fixed during scrolling */
+    z-index: -1; /* Ensure the background is behind all content */
+    opacity: 0.5; /* Set transparency for a soft effect */
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* Header */
+  .main-header {
+    background: #a7d7c5; /* Soft Green (Primary) */
+    color: #ffffff; /* White (Neutral) */
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .main-header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .cta-buttons a {
+    background: #ffffff; /* White (Neutral) */
+    color: #81c7b7; /* Teal (Secondary) */
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .cta-buttons a:hover {
+    background: #f9e5a1; /* Pale Yellow (Accent) */
+    color: #81c7b7; /* Teal (Secondary) */
+  }
+  
+  /* Section Styling */
+  .info-section, .tools-section, .chatbot-section, .community-section, .directory-section, .blog-section, .emergency-section {
+    padding: 50px 0;
+  }
+  
+  .info-section h2, .tools-section h2, .chatbot-section h2, .community-section h2, .directory-section h2, .blog-section h2, .emergency-section h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Image Sections */
+  .image-section {
+    margin: 50px 0;
+  }
+  
+  .full-width-img {
+    margin-left: 15rem;
+    width: 50%;
+    border-radius: 5px;
+  }
+  
+  /* Subsections */
+  .subsection, .tool {
+    padding: 20px;
+    background: #ffffff; /* White (Neutral) */
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Text and Links */
+  h3, p {
+    color: #333;
+  }
+  
+  a {
+    color: #81c7b7; /* Teal (Secondary) */
+  }
+  
+  a:hover {
+    color: #b2e4f0; /* Light Blue (Primary) */
+  }
+  
+  /* Background Colors */
+  .info-section, .tools-section {
+    background-color: #b2e4f0; /* Light Blue (Primary) */
+  }
+  
+  .chatbot-section, .community-section, .directory-section {
+    background-color: #a7d7c5; /* Soft Green (Primary) */
+  }
+  
+  .blog-section, .emergency-section {
+    background-color: #e4d3f4; /* Lavender (Secondary) */
+  }
+  
+  /* Footer */
+  .main-footer {
+    background: #333;
+    color: #ffffff; /* White (Neutral) */
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  .main-footer a {
+    color: #ffffff; /* White (Neutral) */
+  }
+  
+  .main-footer a:hover {
+    color: #f9e5a1; /* Pale Yellow (Accent) */
+  }
+  .end-info p{
+    text-align: center;
+  }
+  .cta-buttons{
+    margin-left:25rem
+  }
